@@ -1,12 +1,56 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 table {
-    margin: 40px;
-    padding: 40px;
     text-align: center;
     align-items: center;
-  
-    height: 100%;
     border-collapse: collapse;
-width: 100%;
+    position: fixed;
+    border: 1px solid black;
 }
- th, td { width: 300px; }
-tbody { display: block; height: 100px; overflow: auto;} 
+
+th,
+td,
+tr {
+    width: 500px;
+    padding: 30px;
+    height: 40px;
+}
+
+.container {
+    margin: 300px;
+    padding: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #FF0000;
+}
+
+
+/* Unvisited link  */
+
+a:visited {
+    color: black;
+}
+
+
+/* Visited link    */
+
+a:hover {
+    color: #FF00FF;
+}
+
+
+/* Mouse over link */
+
+a:active {
+    color: #0000FF;
+}
+
+
+/* Selected link   */
