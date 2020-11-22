@@ -9,11 +9,15 @@ table {
     position: fixed;
     border: 1px solid black;
 }
-
+#special{
+    width: 500px;
+    padding: 30px;
+    height: 40px;
+}
 th,
 td,
 tr {
-    width: 500px;
+     
     padding: 30px;
     height: 40px;
 }
